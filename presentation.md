@@ -1,5 +1,3 @@
-<script src="./fullscreen.js"></script>
-
 # Introducing Snyk
 
 #### Maciej Barelkowski
