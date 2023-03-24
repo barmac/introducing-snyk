@@ -16,6 +16,12 @@
 
 # *Share your thoughts!*
 
+<ol>
+  <li contenteditable="true"></li>
+  <li contenteditable="true"></li>
+  <li contenteditable="true"></li>
+</ol>
+
 <!--
 * pass certification
 * ethics
