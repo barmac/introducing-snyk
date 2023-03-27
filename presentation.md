@@ -1,3 +1,11 @@
+<script>
+  addEventListener("load", (event) => {
+    for (const el of document.querySelectorAll('[contenteditable]')) {
+      el.addEventListener('keydown', e => e.stopPropagation());
+    }
+  });
+</script>
+
 # Introducing Snyk
 
 #### Maciej Barelkowski
