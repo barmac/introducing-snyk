@@ -81,6 +81,13 @@
   * Includes links to Snyk documentation
 * Let's have a look at the tool: https://app.snyk.io/
 
+<!--
+* dashboard view
+* add a project with lifecycle production
+* ignoring reports
+* setup notifications
+-->
+
 ---
 
 ## Next steps
