@@ -493,9 +493,9 @@ img {
       <section class="slide" data-align="left">
         <h2>Goals:</h2>
         <ul>
-          <li>🤔 Understand why we use Snyk</li>
-          <li>🏎 Find out what we can achieve with Snyk</li>
-          <li>🏗 Learn how we use or can use the platform</li>
+          <li>Understand why we use Snyk</li>
+          <li>Find out what we can achieve with Snyk</li>
+          <li>Learn how to use the platform</li>
         </ul>
       </section>
       <section class="slide" data-align="left">
@@ -514,34 +514,44 @@ img {
       </section>
       <section class="slide" data-align="left">
         <h2>What is Snyk?</h2>
+      </section>
+      <section class="slide" data-align="left">
+        <h2>What is Snyk?</h2>
+        <h4>Code security tool which helps to detect and fix vulnerabilities.</h4>
+      </section>
+      <section class="slide" data-align="left">
+        <h2>What is Snyk?</h2>
         <h4>Code security tool which helps to detect and fix vulnerabilities.</h4>
         <h3>Tool which helps to <em>achieve software security</em>.</h3>
       </section>
       <section class="slide" data-align="left">
         <h2>Key features</h2>
         <ul>
-          <li>Scan dependencies</li>
-          <li>Scan source code</li>
-          <li>Scan Docker images</li>
+          <li>Scan dependencies (also in Docker images) for known vulnerabilities</li>
+          <li>Verify dependencies licenses</li>
+          <li>Scan source code for potential vulnerabilities</li>
         </ul>
       </section>
       <section class="slide" data-align="left">
         <h2>Dependencies scanning</h2>
         <ul>
-          <li>Detects more than npm audit, e.g. <a href="https://github.com/camunda-community-hub/zeebe-client-node-js/pull/305" target="_blank" rel="nofollow noopener noreferrer">#305</a>.</li>
-          <li>Scans production deps only per default (no usual npm audit hassle!).</li>
+          <li>Detect more than npm audit, e.g. <a href="https://github.com/camunda-community-hub/zeebe-client-node-js/pull/305" target="_blank" rel="nofollow noopener noreferrer">#305</a>.</li>
+          <li>Scan production deps only per default (no usual npm audit hassle!).</li>
+          <li>Scan Docker images as well.</li>
+        </ul>
+      </section>
+      <section class="slide" data-align="left">
+        <h2>License scanning</h2>
+        <ul>
+          <li>Ensure license compliance</li>
+          <li>Prevent accidental usage of copyleft dependencies</li>
         </ul>
       </section>
       <section class="slide" data-align="left">
         <h2>Code scanning a.k.a. Snyk Code</h2>
         <ul>
           <li>Analyze source code for potential vulnerabilities, e.g. <a href="https://github.com/camunda/camunda-modeler/pull/3475" target="_blank" rel="nofollow noopener noreferrer">#3475</a></li>
-        </ul>
-      </section>
-      <section class="slide" data-align="left">
-        <h2>Docker images scanning</h2>
-        <ul>
-          <li>Useful for most teams at Camunda.</li>
+          <li>Detect risky code and learn about vulnerabilities</li>
         </ul>
       </section>
       <section class="slide" data-align="left">
@@ -564,8 +574,13 @@ img {
         <h2>Next steps</h2>
         <ul>
           <li>Create a team</li>
-          <li>Add projects with lifecycle <em>production</em></li>
-          <li>Own the tool</li>
+          <li>Add projects</li>
+          <li>Use the tool</li>
+        </ul>
+        <p>Potentially:</p>
+        <ul>
+          <li>CI integration: <a href="https://docs.snyk.io/integrations/ci-cd-integrations/github-actions-integration/snyk-node-action" target="_blank" rel="nofollow noopener noreferrer">Snyk Node action</a></li>
+          <li>Security policy as code: <a href="https://docs.snyk.io/snyk-cli/test-for-vulnerabilities/the-.snyk-file" target="_blank" rel="nofollow noopener noreferrer">.snyk file</a></li>
         </ul>
       </section>
     </div>
